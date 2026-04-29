@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+.env
+.env.local
+.env.*.local
+
+node_modules/
+dist/
+.next/
+.nuxt/
+.cache/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+*.log
+logs/
+
+minio_data/
+
+# uv
+.python-version
+
+*.db
+*.sqlite3
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/

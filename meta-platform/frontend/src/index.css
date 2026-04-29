@@ -1,0 +1,17 @@
+/* Keep only utilities, skip base (Tailwind's preflight reset conflicts with antd) */
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* antd layout fills viewport */
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
